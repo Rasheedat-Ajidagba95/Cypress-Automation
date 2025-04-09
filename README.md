@@ -93,15 +93,16 @@ cypress/
 │   └── searchProduct.spec.cy.js              # Search for products
 |   └── sortProducts.spec.cy.js               # Sort products 
 │
+|
 ├── fixtures/                                # Test data
 │   └── element.json
 │
 ├── support/               
-│   └── commands.js        # Custom Cypress commands
+│   └── commands.js                         # Custom Cypress commands
 │   └── e2e.js             # Global config
 │
 cypress.config.js          # Cypress config file
-```
+
 
 ---
 
