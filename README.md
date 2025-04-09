@@ -80,31 +80,6 @@ npx cypress run
 
 ---
 
-## 📂 Folder Structure
-
-
-cypress/
-│
-├── e2e/                                      # Test specs
-│   └── authentication.spec.cy.js             # Signup and Login tests
-│   └── cartAndCheckout.spec.cy.js            # Add to cart & checkout
-│   └── filterProductByCategories.spec.cy.js  # Filter products by different categories
-│   └── orderManagement.spec.cy.js            # Check order lists and view order details
-│   └── searchProduct.spec.cy.js              # Search for products
-|   └── sortProducts.spec.cy.js               # Sort products 
-│
-|
-├── fixtures/                                # Test data
-│   └── element.json
-│
-├── support/               
-│   └── commands.js                         # Custom Cypress commands
-│   └── e2e.js             # Global config
-│
-cypress.config.js          # Cypress config file
-
-
----
 
 ## 🧾 Sample Command
 
